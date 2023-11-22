@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+server:
+  port: 8082
+
+topics:
+  data-power,data-temperature,data-voltage
+
